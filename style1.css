@@ -1,0 +1,182 @@
+body{
+    height:1000px ;
+    width: 1000px;
+    background-color:#8a6631;
+   
+}
+.chess{
+  
+    background-color:transparent;
+    height: 400px;
+    width: 400px;
+}
+.container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content:space-around;
+}
+.chess table tr td{
+    width: 45.9px;
+    height: 45.9px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.bg{
+    background-color: rgb(223, 201, 201);
+}
+.bl{
+    
+    background-color:gray;
+}
+h1{
+    background-color: #cc8112;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.box{
+    display: flex;
+    position: relative;
+}
+.carrom{
+ 
+    border-color: rgb(206, 159, 159);
+    height: 400px;
+    width: 400px;
+    background-color:#8a6631;
+}
+.left{
+    height: 400px;
+    width: 25px;
+    background-color: black;
+}
+.right{
+    position: absolute;
+   
+    height: 100%;
+    width: 25px;
+    background-color: black;
+    left: 375px;
+}
+.top{
+    height: 25px;
+    width:100%;
+    background-color: black;
+}
+.bottom{
+    position: absolute;
+    top:375px;
+    height: 25px;
+    width:100%;
+    background-color: black;
+}
+.bootm-hole{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  
+    width: 351px;
+    height: 50px;
+    top: 23px;
+    left: 24px;
+}
+.top-hole{
+    display: flex;
+    justify-content: space-between;
+    justify-items: end;
+    position: absolute;
+    
+    width: 351px;
+    height: 50px;
+    top: 327px;
+    left: 24px;
+}
+.hole{
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 50%;
+}
+.hole2{
+position: absolute;
+top: 10px;
+left: 311px;
+}
+.hole1{
+position: absolute;
+top: 10px;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    background-color:#cc8112;
+    bottom: 65px;
+    left: 85px;
+    border-radius: 20px 20px 20px 20px;
+ 
+}
+.top2{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    background-color:#cc8112;
+    border-radius: 20px 20px 20px 20px;
+    left: 85px;
+    top: 65px;
+
+}
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(165, 33, 33);
+    border-radius: 50%;
+}
+.side1{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    width: 30px;
+    height: 225px;
+    background-color: #cc8112;
+    border-radius: 20px 20px 20px 20px;
+}
+.side2{
+    position: absolute;
+    top: 90px;
+    width: 30px;
+    height: 225px;
+    background-color: #cc8112;
+    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    right: 55px;
+}
+.ball1{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(165, 33, 33);
+    border-radius: 50%;
+}
+.ball11{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(165, 33, 33);
+    border-radius: 50%;
+}
+.flower{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(66, 62, 56);
+    position:absolute;
+    top: 37%;
+    left: 37%;
+    border-radius: 50%;
+}
